@@ -1,4 +1,5 @@
 public class Multiples {
+
     public static void main(String[] args) {
 
         int i = 1;
@@ -6,7 +7,7 @@ public class Multiples {
 
         while (i < 1000) {
 
-            // Find out if numbers divide i.
+            // Determine if numbers divide i.
             boolean divisibleBy3 = i % 3 == 0;
             boolean divisibleBy5 = i % 5 == 0;
 
